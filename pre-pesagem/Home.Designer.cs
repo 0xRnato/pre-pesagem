@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +43,7 @@
             this.cadastrarReceitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarReceitaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarReceitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,17 +59,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(813, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::pre_pesagem.Properties.Resources._12039460_1673532516221083_277882707403000927_n;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(813, 533);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // produtosToolStripMenuItem
             // 
@@ -88,18 +77,21 @@
             this.cadastrarProdutoToolStripMenuItem.Name = "cadastrarProdutoToolStripMenuItem";
             this.cadastrarProdutoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.cadastrarProdutoToolStripMenuItem.Text = "Cadastrar produto";
+            this.cadastrarProdutoToolStripMenuItem.Click += new System.EventHandler(this.cadastrarProdutoToolStripMenuItem_Click);
             // 
             // editarProdutoToolStripMenuItem
             // 
             this.editarProdutoToolStripMenuItem.Name = "editarProdutoToolStripMenuItem";
             this.editarProdutoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.editarProdutoToolStripMenuItem.Text = "Editar produto";
+            this.editarProdutoToolStripMenuItem.Click += new System.EventHandler(this.editarProdutoToolStripMenuItem_Click);
             // 
             // listarProdutosToolStripMenuItem
             // 
             this.listarProdutosToolStripMenuItem.Name = "listarProdutosToolStripMenuItem";
             this.listarProdutosToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.listarProdutosToolStripMenuItem.Text = "Listar produtos";
+            this.listarProdutosToolStripMenuItem.Click += new System.EventHandler(this.listarProdutosToolStripMenuItem_Click);
             // 
             // gerarRelatórioDeSaídaToolStripMenuItem
             // 
@@ -126,19 +118,19 @@
             // abrirOSToolStripMenuItem
             // 
             this.abrirOSToolStripMenuItem.Name = "abrirOSToolStripMenuItem";
-            this.abrirOSToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.abrirOSToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.abrirOSToolStripMenuItem.Text = "Abrir OS";
             // 
             // oSAbertaToolStripMenuItem
             // 
             this.oSAbertaToolStripMenuItem.Name = "oSAbertaToolStripMenuItem";
-            this.oSAbertaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oSAbertaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.oSAbertaToolStripMenuItem.Text = "OS Aberta";
             // 
             // oSFechadaToolStripMenuItem
             // 
             this.oSFechadaToolStripMenuItem.Name = "oSFechadaToolStripMenuItem";
-            this.oSFechadaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oSFechadaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.oSFechadaToolStripMenuItem.Text = "OS Fechada";
             // 
             // receitasToolStripMenuItem
@@ -168,6 +160,17 @@
             this.listarReceitasToolStripMenuItem.Name = "listarReceitasToolStripMenuItem";
             this.listarReceitasToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.listarReceitasToolStripMenuItem.Text = "Listar receitas";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::pre_pesagem.Properties.Resources._12039460_1673532516221083_277882707403000927_n;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(813, 533);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Home
             // 

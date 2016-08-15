@@ -14,5 +14,23 @@ namespace pre_pesagem
         {
             InitializeComponent();
         }
+
+        private void cadastrarProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarProduto form = new CadastrarProduto();
+            form.ShowDialog();
+        }
+
+        private void listarProdutosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListarProdutos form = new ListarProdutos();
+            form.ShowDialog();
+        }
+
+        private void editarProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditarProduto form = new EditarProduto();
+            form.ShowDialog();
+        }
     }
 }
