@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nOMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.uNIDADEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vALORDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pRODUTOSBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._pre_pesagemDataSet = new pre_pesagem._pre_pesagemDataSet();
             this.pRODUTOSTableAdapter = new pre_pesagem._pre_pesagemDataSetTableAdapters.PRODUTOSTableAdapter();
             this.btn_Print = new System.Windows.Forms.Button();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nOMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.uNIDADEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vALORDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pRODUTOSBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._pre_pesagemDataSet)).BeginInit();
@@ -63,34 +63,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(443, 326);
             this.dataGridView1.TabIndex = 0;
             // 
-            // iDDataGridViewTextBoxColumn
-            // 
-            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // nOMEDataGridViewTextBoxColumn
-            // 
-            this.nOMEDataGridViewTextBoxColumn.DataPropertyName = "NOME";
-            this.nOMEDataGridViewTextBoxColumn.HeaderText = "NOME";
-            this.nOMEDataGridViewTextBoxColumn.Name = "nOMEDataGridViewTextBoxColumn";
-            this.nOMEDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // uNIDADEDataGridViewTextBoxColumn
-            // 
-            this.uNIDADEDataGridViewTextBoxColumn.DataPropertyName = "UNIDADE";
-            this.uNIDADEDataGridViewTextBoxColumn.HeaderText = "UNIDADE";
-            this.uNIDADEDataGridViewTextBoxColumn.Name = "uNIDADEDataGridViewTextBoxColumn";
-            this.uNIDADEDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // vALORDataGridViewTextBoxColumn
-            // 
-            this.vALORDataGridViewTextBoxColumn.DataPropertyName = "VALOR";
-            this.vALORDataGridViewTextBoxColumn.HeaderText = "VALOR";
-            this.vALORDataGridViewTextBoxColumn.Name = "vALORDataGridViewTextBoxColumn";
-            this.vALORDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
             // pRODUTOSBindingSource
             // 
             this.pRODUTOSBindingSource.DataMember = "PRODUTOS";
@@ -114,6 +86,37 @@
             this.btn_Print.Text = "Imprimir";
             this.btn_Print.UseVisualStyleBackColor = true;
             this.btn_Print.Click += new System.EventHandler(this.btn_Print_Click);
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.iDDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // nOMEDataGridViewTextBoxColumn
+            // 
+            this.nOMEDataGridViewTextBoxColumn.DataPropertyName = "NOME";
+            this.nOMEDataGridViewTextBoxColumn.HeaderText = "NOME";
+            this.nOMEDataGridViewTextBoxColumn.Name = "nOMEDataGridViewTextBoxColumn";
+            this.nOMEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nOMEDataGridViewTextBoxColumn.Width = 190;
+            // 
+            // uNIDADEDataGridViewTextBoxColumn
+            // 
+            this.uNIDADEDataGridViewTextBoxColumn.DataPropertyName = "UNIDADE";
+            this.uNIDADEDataGridViewTextBoxColumn.HeaderText = "UNIDADE";
+            this.uNIDADEDataGridViewTextBoxColumn.Name = "uNIDADEDataGridViewTextBoxColumn";
+            this.uNIDADEDataGridViewTextBoxColumn.ReadOnly = true;
+            this.uNIDADEDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // vALORDataGridViewTextBoxColumn
+            // 
+            this.vALORDataGridViewTextBoxColumn.DataPropertyName = "VALOR";
+            this.vALORDataGridViewTextBoxColumn.HeaderText = "VALOR";
+            this.vALORDataGridViewTextBoxColumn.Name = "vALORDataGridViewTextBoxColumn";
+            this.vALORDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // ListarProdutos
             // 
@@ -140,10 +143,10 @@
         private _pre_pesagemDataSet _pre_pesagemDataSet;
         private System.Windows.Forms.BindingSource pRODUTOSBindingSource;
         private _pre_pesagemDataSetTableAdapters.PRODUTOSTableAdapter pRODUTOSTableAdapter;
+        private System.Windows.Forms.Button btn_Print;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nOMEDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn uNIDADEDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn vALORDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button btn_Print;
     }
 }

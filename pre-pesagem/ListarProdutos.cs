@@ -23,7 +23,7 @@ namespace pre_pesagem
 
         private void btn_Print_Click(object sender, EventArgs e)
         {
-            printDGV.Print_DataGridView(dataGridView1);
+            printProdutos.Print_DataGridView(dataGridView1);
         }
     }
 }
