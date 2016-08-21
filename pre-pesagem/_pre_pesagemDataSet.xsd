@@ -161,17 +161,7 @@ SELECT ID, NOME, UNIDADE, VALOR FROM PRODUTOS WHERE (ID = @ID)</CommandText>
               <Mapping SourceColumn="UNIDADE" DataSetColumn="UNIDADE" />
               <Mapping SourceColumn="VALOR" DataSetColumn="VALOR" />
             </Mappings>
-            <Sources>
-              <DbSource ConnectionRef="pre_pesagemConnectionString (Settings)" DbObjectName="dbo.PRODUTOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT        ID, NOME, UNIDADE, VALOR
-FROM            PRODUTOS</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-            </Sources>
+            <Sources />
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PRODUTOSAVULSOSTableAdapter" GeneratorDataComponentClassName="PRODUTOSAVULSOSTableAdapter" Name="PRODUTOSAVULSOS" UserDataComponentName="PRODUTOSAVULSOSTableAdapter">
             <MainSource>

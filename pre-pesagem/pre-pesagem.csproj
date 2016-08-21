@@ -61,11 +61,23 @@
     <Compile Include="CadastrarProduto.Designer.cs">
       <DependentUpon>CadastrarProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadastrarReceita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrarReceita.Designer.cs">
+      <DependentUpon>CadastrarReceita.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditarProduto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EditarProduto.Designer.cs">
       <DependentUpon>EditarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarReceita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarReceita.Designer.cs">
+      <DependentUpon>EditarReceita.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -78,6 +90,12 @@
     </Compile>
     <Compile Include="ListarProdutos.Designer.cs">
       <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListarReceitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListarReceitas.Designer.cs">
+      <DependentUpon>ListarReceitas.cs</DependentUpon>
     </Compile>
     <Compile Include="printDGV.cs" />
     <Compile Include="PrintOptions.cs">
@@ -100,6 +118,9 @@
     <EmbeddedResource Include="CadastrarProduto.resx">
       <DependentUpon>CadastrarProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarReceita.resx">
+      <DependentUpon>CadastrarReceita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditarProduto.resx">
       <DependentUpon>EditarProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ListarProdutos.resx">
       <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListarReceitas.resx">
+      <DependentUpon>ListarReceitas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintOptions.resx">
       <DependentUpon>PrintOptions.cs</DependentUpon>

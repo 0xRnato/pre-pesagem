@@ -148,18 +148,21 @@
             this.cadastrarReceitasToolStripMenuItem.Name = "cadastrarReceitasToolStripMenuItem";
             this.cadastrarReceitasToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.cadastrarReceitasToolStripMenuItem.Text = "Cadastrar receitas";
+            this.cadastrarReceitasToolStripMenuItem.Click += new System.EventHandler(this.cadastrarReceitasToolStripMenuItem_Click);
             // 
             // editarReceitaToolStripMenuItem
             // 
             this.editarReceitaToolStripMenuItem.Name = "editarReceitaToolStripMenuItem";
             this.editarReceitaToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.editarReceitaToolStripMenuItem.Text = "Editar receita";
+            this.editarReceitaToolStripMenuItem.Click += new System.EventHandler(this.editarReceitaToolStripMenuItem_Click);
             // 
             // listarReceitasToolStripMenuItem
             // 
             this.listarReceitasToolStripMenuItem.Name = "listarReceitasToolStripMenuItem";
             this.listarReceitasToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.listarReceitasToolStripMenuItem.Text = "Listar receitas";
+            this.listarReceitasToolStripMenuItem.Click += new System.EventHandler(this.listarReceitasToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 

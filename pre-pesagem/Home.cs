@@ -32,5 +32,23 @@ namespace pre_pesagem
             EditarProduto form = new EditarProduto();
             form.ShowDialog();
         }
+
+        private void cadastrarReceitasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarReceita form = new CadastrarReceita();
+            form.ShowDialog();
+        }
+
+        private void listarReceitasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListarReceitas form = new ListarReceitas();
+            form.ShowDialog();
+        }
+
+        private void editarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditarReceita form = new EditarReceita();
+            form.ShowDialog();
+        }
     }
 }
