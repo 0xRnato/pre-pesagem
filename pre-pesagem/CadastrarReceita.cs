@@ -30,7 +30,7 @@ namespace pre_pesagem
             this.rECEITATableAdapter.Fill(this._pre_pesagemDataSet.RECEITA);
             txt_Nome.Text = "";
             txt_Rendimento.Text = "";
-            id_Receita = 0;
+            cbox_Setor.Focus();
         }
 
         private void btn_Next_Click(object sender, EventArgs e)

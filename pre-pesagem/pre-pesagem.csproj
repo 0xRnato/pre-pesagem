@@ -124,6 +124,9 @@
     <EmbeddedResource Include="EditarProduto.resx">
       <DependentUpon>EditarProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditarReceita.resx">
+      <DependentUpon>EditarReceita.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
